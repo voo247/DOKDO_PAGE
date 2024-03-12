@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>독도의 가치</title>
+		<style>
+			@import url(style/stylesheet.css);
+			@import url(style/korea.css);
+		</style>
+		<script src="javascript/korea.js">
+		</script>
+	</head>
+	<body>
+		<header>
+			<a id="main" href="index.html">DOKDO<span style="color : cadetblue;">.</span></a>
+
+			<nav>
+				<ul>
+					<li><a href="info.html">독도 소개</a></li>
+					<li><a href="korea.html">독도의 가치</a></li>
+					<li><a href="history.html">독도의 역사</a></li>
+					<li><a href="qna.html">독도 일문일답</a></li>
+					<li><a href="gallery.html">독도 갤러리</a></li>
+					<li><a onclick="howToUseThisSite()" style="cursor: pointer;">?</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+
+		<section class="block">
+			<div>
+				<div class="select" onclick="animal()">동물 자원</div>
+				<div class="select" onclick="coal()">광물 자원</div>
+				<div class="select" onclick="travel()">관광 자원</div>
+				<div class="select" onclick="fight()">군사·해양과학적 가치</div>
+			</div>
+
+			<article>
+				<div id="fntl_roghk"></div>
+				<script>
+					function animal(){
+						let sodyd = document.getElementById("fntl_roghk");
+						sodyd.innerHTML = "<p>독도 주변 해역은 북쪽에서 내려오는 북한한류와 남쪽에서 북상하는 대마난류계의 흐름들이 교차하는 해역으로 플랑크톤이 풍부하여 회유성 어족이 풍부하기 때문에 좋은 어장을 형성한다. 어민들의 주요 수입원이 되는 회유성 어족인 연어, 송어, 대구를 비롯해 명태, 꽁치, 오징어, 상어가 주종을 이루고 있다. 또한 해저암초에는 다시마, 미역, 소라, 전복 등의 해양 동물과 해조류들이 풍성히 자라고 있어 어민들의 주요한 수입원이 되고 있다.</p><img src='media/img_value01.jpg' class='resource'>";
+					}
+
+					function coal(){
+						let sodyd = document.getElementById("fntl_roghk");
+						sodyd.innerHTML = "<p>독도 주변 바닷속에 '불타는 얼음'이라고 일컫는 '가스 하이드레이트'가 150조~200조원어치나 매장돼 있는 것으로 추정되는 등 독도는 천연자원의 보고로 각광받기 시작했다.<br><br>'하이드레이트'란 메탄이 주성분인 천연가스가 얼음처럼 고체화된 상태로서, 기존 천연가스의 매장량보다 수십 배 많은데다가 그 자체가 훌륭한 에너지 자원이면서도 석유자원이 묻혀 있는지를 알려주는 '지시자원'이라 할 수 있다.<br><br>실제 국내 대륙붕 및 인접 중국과 일본의 석유 발견지점을 지도를 보면, 동중국해에서 동북방향으로 울산남동 쪽을 거쳐 독도인근해역을 거쳐 일본 서부연안을 향해 유전지대가 펼쳐진다는 주장도 제기되고 있다. 해양석유자원의 보유가능성이 높다는 얘기이다.</p><img src='media/img_value02.jpg' class='resource'>";
+					}
+
+					function travel(){
+						let sodyd = document.getElementById("fntl_roghk");
+						sodyd.innerHTML = "<p>독도에는 바다제비, 슴새, 괭이갈매기 등 희귀한 해조류들이 살고 있으며, 천연기념물 제336호로 지정 보호되고 있다. 동도와 서도 사이의 형제굴, 동도의 천장굴 등을 비롯한 해식동굴과 해식대 및 해식애가 발달하여 자연의 신비함을 느낄 수 있으며, 동해의 맑은 바다와 외로이 떠있는 섬과 해조류들이 어우러진 매우 아름다운 섬으로 관광자원으로서도 높은 가치를 가지고 있다.</p><img src='media/img_value03.jpg' class='resource'>";
+					}
+					
+					function fight(){
+						let sodyd = document.getElementById("fntl_roghk");
+						sodyd.innerHTML = "<p>독도의 군사적 가치 및 해양 과학적 가치는 일찍부터 인정 되었다.<br><br>1905년 러일전쟁의 마지막 해전이라 할 수 있는 이른바 '동해의 대해전'을 치루기 전에 일본은 독도를 강제적으로 일본 령으로 편입시켜 독도에 망루를 준공해 러시아 함대에 대승을 거둠으로써 독도의 군사적 가치는 인정 되었다.</p><img src='media/img_value04.jpg' class='resource'>";
+					}
+				</script>
+			</article>
+		</section>
+
+		<footer>
+			<span>동덕여자대학교 20230795 박예원<br>
+			인터넷프로그래밍 02분반 기말과제</span>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+.select{
+	display: inline-block;
+	padding: 10px;
+	margin-right: 5px;
+	border: 3px double cadetblue;
+}
+.select:hover{
+	background: #ccdfe0;
+	cursor: pointer;
+}
+
+#fntl_roghk{
+	background: #ccdfe0;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+#fntl_roghk p{
+	display: inline-block;
+	margin: 20px;
+}
+
+.resource{
+	width : 90%;
+	postion : relative;
+	display: inline-block;
+	margin: 10px 5% 30px 5%;
+}

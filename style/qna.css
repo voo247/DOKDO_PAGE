@@ -1,0 +1,29 @@
+details{
+	display: block;
+	padding: 10px 20px 10px 20px;
+	background: #ccdfe0;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.hrhrhr{
+	background: cadetblue;
+	height: 0.5px;
+}
+
+.source{
+	display: block;
+	padding: 15px;
+	margin-bottom: 10px;
+	background: #ebf2f2;
+	border: 2px solid #8a9c9c;
+	border-radius: 15px;
+}
+
+.question{
+	display: block;
+	padding: 10px 20px 10px 20px;
+	background: #ccdfe0;
+	border-radius: 10px;
+	margin: 5px;
+}

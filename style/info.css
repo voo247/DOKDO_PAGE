@@ -1,0 +1,18 @@
+div#navi{
+	position: fixed;
+	right: 3%;
+	display: inline-block;
+	padding: 10px 30px 10px 20px;
+	border-radius: 10px;
+	border: solid 2px;
+	background: white;
+}
+
+#navi li:hover, a:hover{
+	color: cadetblue;
+}
+
+#close{
+	display: inline;
+	cursor: pointer;
+}

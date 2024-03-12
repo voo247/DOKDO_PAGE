@@ -1,0 +1,99 @@
+/*제목 배경 gif*/
+div#background{
+	width: 99.9%;
+	height: 350px;
+	border: 1px white solid;
+	background-size: 94%;
+	background-image: url("../media/8BB60135-68F1-D43A-908A-30443A9F6BA2.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*제목 애니메이션*/
+@keyframes doslapdltus {
+	0% { left: -300px; }
+	100% { left: 0px; }
+}
+/*제목*/
+h1#title{
+	color : white;
+	position: relative;
+	animation: doslapdltus 1s 1;
+	margin-top: 125px;
+	font: bold 60px sans-serif;
+	text-shadow: 0px 0px 5px black;
+}
+/*제목 아래쪽에 상세설명 애니메*/
+@keyframes detail {
+	0% {
+		color: transparent;
+		text-shadow: 0px 0px 0px transparent;
+	}
+	30% {
+		color: transparent;
+		text-shadow: 0px 0px 0px transparent;
+	}
+	100% {
+		color: lightgray;
+		text-shadow: 0px 0px 3px darkgray;
+	}
+}
+/*상세설명*/
+p#tkdtp{
+	position: relative;
+	animation: detail 2s 1;
+	margin-top: 100px;
+	font: medium 10px sans-serif;
+	color: lightgray;
+	text-shadow: 0px 0px 3px darkgray;
+}
+
+
+/*인라인블록 줄글*/
+.block{
+	position: relative;
+	display: inline-block;
+	width: 94%;
+	left: 3%;
+}
+
+.left{
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	left: 3%;
+}
+
+.center{
+	position: relative;
+	display: inline-block;
+	width: 34%;
+	left: 4%;
+}
+
+.right{
+	position: relative;
+	display: inline-block;
+	width: 27%;
+	left: 5%;
+}
+
+p.big{
+	font-size: 20.5px;
+}
+
+#dokdo_table{
+	border-bottom: 1px solid dimgray;
+	border-collapse : collapse;
+	color: aliceblue;
+	width: 100%;
+}
+table td, th{
+	border-top: 1px solid dimgray;
+	padding: 8px;
+}
+table th{
+	background: #9eb0b5;
+}

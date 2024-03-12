@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>독도 갤러리</title>
+		<style>
+			@import url(style/stylesheet.css);
+			@import url(style/gallery.css);
+		</style>
+		<script src="javascript/gallery.js">
+		</script>
+	</head>
+	<body>
+		<header>
+			<a id="main" href="index.html">DOKDO<span style="color : cadetblue;">.</span></a>
+
+			<nav>
+				<ul>
+					<li><a href="info.html">독도 소개</a></li>
+					<li><a href="korea.html">독도의 가치</a></li>
+					<li><a href="history.html">독도의 역사</a></li>
+					<li><a href="qna.html">독도 일문일답</a></li>
+					<li><a href="gallery.html">독도 갤러리</a></li>
+					<li><a onclick="howToUseThisSite()" style="cursor: pointer;">?</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+
+		<section>
+			<div id="background">
+				<div id="gallery">
+					<img width="395" height="260" src="media/gallery_thumb_01.jpg" style="position: absolute; top: 0px; left: 0px;">
+					<img width="125" height="125" src="media/gallery_thumb_02.jpg" style="position: absolute; top: 0px; left: 405px;">
+					<img width="260" height="260" src="media/gallery_thumb_03.jpg" style="position: absolute; top: 0px; left: 540px;">
+					<img width="125" height="125" src="media/gallery_thumb_04.jpg" style="position: absolute; top: 135px; left: 405px;">
+					<img width="260" height="260" src="media/gallery_thumb_05.jpg" style="position: absolute; top: 270px; left: 0px;">
+					<img width="260" height="260" src="media/gallery_thumb_06.jpg" style="position: absolute; top: 270px; left: 270px;">
+					<img width="260" height="260" src="media/gallery_thumb_07.jpg" style="position: absolute; top: 270px; left: 540px;">
+					<img width="395" height="260" src="media/gallery_thumb_08.jpg" style="position: absolute; top: 540px; left: 0px;">
+					<img width="395" height="260" src="media/gallery_thumb_09.jpg" style="position: absolute; top: 540px; left: 405px;">
+					<img width="125" height="125" src="media/gallery_thumb_10.jpg" style="position: absolute; top: 810px; left: 0px;">
+					<img width="260" height="260" src="media/gallery_thumb_11.jpg" style="position: absolute; top: 810px; left: 135px;">
+					<img width="125" height="125" src="media/gallery_thumb_12.jpg" style="position: absolute; top: 810px; left: 405px;">
+					<img width="125" height="125" src="media/gallery_thumb_13.jpg" style="position: absolute; top: 810px; left: 540px;">
+					<img width="260" height="260" src="media/gallery_thumb_14.jpg" style="position: absolute; top: 945px; left: 405px;">
+					<img width="125" height="125" src="media/gallery_thumb_15.jpg" style="position: absolute; top: 810px; left: 675px;">
+					<img width="125" height="125" src="media/gallery_thumb_16.jpg" style="position: absolute; top: 945px; left: 0px;">
+					<img width="125" height="125" src="media/gallery_thumb_17.jpg" style="position: absolute; top: 945px; left: 675px;">
+					<img width="125" height="125" src="media/gallery_thumb_18.jpg" style="position: absolute; top: 1080px; left: 0px;">
+					<img width="125" height="125" src="media/gallery_thumb_19.jpg" style="position: absolute; top: 1080px; left: 135px;">
+					<img width="125" height="125" src="media/gallery_thumb_20.jpg" style="position: absolute; top: 1080px; left: 270px;">
+					<img width="125" height="125" src="media/gallery_thumb_21.jpg" style="position: absolute; top: 1080px; left: 675px;">
+					<img width="125" height="125" src="media/gallery_thumb_22.jpg" style="position: absolute; top: 1215px; left: 0px;">
+					<img width="260" height="260" src="media/gallery_thumb_23.jpg" style="position: absolute; top: 1215px; left: 135px;">
+					<img width="125" height="125" src="media/gallery_thumb_24.jpg" style="position: absolute; top: 1215px; left: 405px;">
+					<img width="125" height="125" src="media/gallery_thumb_25.jpg" style="position: absolute; top: 1215px; left: 540px;">
+					<img width="125" height="125" src="media/gallery_thumb_26.jpg" style="position: absolute; top: 1215px; left: 675px;">
+					<img width="395" height="260" src="media/gallery_thumb_27.jpg" style="position: absolute; top: 1350px; left: 405px;">
+					<img width="125" height="125" src="media/gallery_thumb_28.jpg" style="position: absolute; top: 1350px; left: 0px;">
+					<img width="125" height="125" src="media/gallery_thumb_29.jpg" style="position: absolute; top: 1485px; left: 0px;">
+					<img width="125" height="125" src="media/gallery_thumb_30.jpg" style="position: absolute; top: 1485px; left: 135px;">
+					<img width="125" height="125" src="media/gallery_thumb_31.jpg" style="position: absolute; top: 1485px; left: 270px;">
+					<img width="395" height="260" src="media/gallery_thumb_32.jpg" style="position: absolute; top: 1620px; left: 0px;">
+					<img width="125" height="125" src="media/gallery_thumb_33.jpg" style="position: absolute; top: 1620px; left: 405px;">
+					<img width="260" height="260" src="media/gallery_thumb_34.jpg" style="position: absolute; top: 1620px; left: 540px;">
+					<img width="125" height="125" src="media/gallery_thumb_35.jpg" style="position: absolute; top: 1755px; left: 405px;">
+					<img width="260" height="260" src="media/gallery_thumb_36.jpg" style="position: absolute; top: 1890px; left: 0px;">
+					<img width="260" height="260" src="media/gallery_thumb_37.jpg" style="position: absolute; top: 1890px; left: 270px;">
+					<img width="260" height="260" src="media/gallery_thumb_38.jpg" style="position: absolute; top: 1890px; left: 540px;">
+					<img width="395" height="260" src="media/gallery_thumb_39.jpg" style="position: absolute; top: 2160px; left: 0px;">
+					<img width="395" height="260" src="media/gallery_thumb_40.jpg" style="position: absolute; top: 2160px; left: 405px;">
+					<img width="125" height="125" src="media/gallery_thumb_41.jpg" style="position: absolute; top: 2430px; left: 0px;">
+					<img width="260" height="260" src="media/gallery_thumb_42.jpg" style="position: absolute; top: 2430px; left: 135px;">
+					<img width="125" height="125" src="media/gallery_thumb_43.jpg" style="position: absolute; top: 2430px; left: 405px;">
+					<img width="125" height="125" src="media/gallery_thumb_44.jpg" style="position: absolute; top: 2430px; left: 540px;">
+					<img width="260" height="260" src="media/gallery_thumb_45.jpg" style="position: absolute; top: 2565px; left: 405px;">
+					<img width="125" height="125" src="media/gallery_thumb_46.jpg" style="position: absolute; top: 2430px; left: 675px;">
+					<img width="125" height="125" src="media/gallery_thumb_47.jpg" style="position: absolute; top: 2565px; left: 0px;">
+					<img width="125" height="125" src="media/gallery_thumb_48.jpg" style="position: absolute; top: 2565px; left: 675px;">
+					<img width="125" height="125" src="media/gallery_thumb_49.jpg" style="position: absolute; top: 2700px; left: 0px;">
+					<img width="125" height="125" src="media/gallery_thumb_50.jpg" style="position: absolute; top: 2700px; left: 135px;">
+					<img width="125" height="125" src="media/gallery_thumb_51.jpg" style="position: absolute; top: 2700px; left: 270px;">
+					<img width="125" height="125" src="media/gallery_thumb_52.jpg" style="position: absolute; top: 2700px; left: 675px;">
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<span>동덕여자대학교 20230795 박예원<br>
+			인터넷프로그래밍 02분반 기말과제</span>
+		</footer>
+	</body>
+</html>

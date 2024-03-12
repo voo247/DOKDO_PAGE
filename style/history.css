@@ -1,0 +1,30 @@
+h3{
+	font: 900 20px Times New Roman, serif;
+}
+
+.gmaaaadlfma{
+	display: block;
+	padding: 15px;
+	margin: 5px 0px 20px 0px;
+	background: #ebf2f2;
+	border: 2px solid #8a9c9c;
+	border-radius: 10px;
+}
+
+dl{
+	padding-left: 10px;
+}
+
+nav#navi{
+	position: relative;
+	margin-bottom: 50px;
+}
+nav#navi a{
+	top: -4px;
+	background: white;
+	display: inline-block;
+	position: absolute;
+}
+nav#navi a:hover{
+	color: cadetblue;
+}
